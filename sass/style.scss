@@ -184,3 +184,33 @@ a:clicked{
         }
     }
 }
+
+.footer{
+    .container{
+        padding: 30px 0;
+        display: flex;
+
+        .copyright{
+            font-size: 13px;
+            font-style: italic;
+        }
+
+        .social{
+            i{
+                margin: 0 5px;
+                font-size: 24px;
+                padding: 10px;
+                background-color: $title-color;
+                color:  $light-color;
+                border-radius: 50%;
+                transition: all 0.5s;
+            }
+
+            i:hover{
+                background-color: $light-color;
+                color: $title-color;
+                transition: all 0.5s;
+            }
+        }
+    }
+}
