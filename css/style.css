@@ -112,11 +112,11 @@ a:clicked {
   transform: translate(-50%, -50%);
 }
 .head-of-page .container .splash .header-subtitle {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 100;
 }
 .head-of-page .container .splash .header-title {
-  font-size: 90px;
+  font-size: 50px;
 }
 .head-of-page .container .splash .btn-header {
   display: inline-block;
